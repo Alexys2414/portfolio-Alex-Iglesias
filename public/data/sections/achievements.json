@@ -2,21 +2,21 @@
     "locales": {
         "en": {
             "title": "Achievements",
-            "title_menu": "Achievements",
+            "title_menu": "Certifications",
             "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
+            "title_long": "Career **Certifications**"
         },
         "es": {
             "title": "Logros",
-            "title_menu": "Logros",
+            "title_menu": "Certificaciones",
             "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
+            "title_long": "**Certificaciones**"
         },
         "ca": {
             "title": "Aconseguiments",
-            "title_menu": "Aconseguiments",
-            "title_long_prefix": "Ací estan els meus",
-            "title_long": "**Aconseguiments** Professionals"
+            "title_menu": "Certificacions",
+            "title_long_prefix": "Ací estan les meues",
+            "title_long": "**Certificacions**"
         }
     },
 
@@ -26,153 +26,62 @@
             "component": "ArticleCards",
             "config": {},
             "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "ca": { "title": "Certificacions" }
+                "en": { "title": "Certifications & Challenges" },
+                "es": { "title": "Certificaciones y Retos" },
+                "ca": { "title": "Certificacions i Reptes" }
             },
 
             "items": [
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": { "bg": "#326CE5", "fill": "#EEE" }
+                        "fa": "fa-solid fa-user-secret",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
                     },
-                    "dates": { "start": "2024", "end": null },
-                    "locales": {
-                        "en": { "title": "Cybersecurity Specialization", "text": "Currently completing a cybersecurity specialization course." },
-                        "es": { "title": "Especialización en Ciberseguridad", "text": "Actualmente cursando una especialización en ciberseguridad." },
-                        "ca": { "title": "Especialització en Ciberseguretat", "text": "Actualment cursant una especialització en ciberseguretat." }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "awards",
-            "component": "ArticleThread",
-            "config": {},
-            "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "ca": { "title": "Premis" }
-            },
-
-            "items": [
-                {
-                    "dates": { "start": "2024", "end": null },
+                    "dates": {
+                        "start": "2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://tryhackme.com/" }
+                    ],
                     "locales": {
                         "en": {
-                            "title": "**Best Final Year Project** – Web App",
-                            "info": "IES Camp de Morvedre",
-                            "text": "Awarded for developing a web app for a cultural association using **React, Ionic, and Node.js**."
+                            "title": "TryHackMe Certifications",
+                            "text": "Completed various cybersecurity training modules, including **network security, forensics, and penetration testing.**"
                         },
                         "es": {
-                            "title": "**Mejor Proyecto de Fin de Grado** – Aplicación Web",
-                            "info": "IES Camp de Morvedre",
-                            "text": "Premiado por desarrollar una aplicación web para una asociación cultural utilizando **React, Ionic y Node.js**."
+                            "text": "Completados varios módulos de formación en ciberseguridad, incluyendo **seguridad de redes, análisis forense y pruebas de penetración.**"
                         },
                         "ca": {
-                            "title": "**Millor Projecte Final de Grau** – Aplicació Web",
-                            "info": "IES Camp de Morvedre",
-                            "text": "Premiat per desenvolupar una aplicació web per a una associació cultural utilitzant **React, Ionic i Node.js**."
+                            "text": "Completats diversos mòduls de formació en ciberseguretat, incloent **seguretat de xarxes, anàlisi forense i proves de penetració.**"
                         }
                     }
-                }
-            ]
-        },
-
-        {
-            "id": "apps",
-            "component": "ArticleGrid",
-            "config": { "format": "grid" },
-            "locales": {
-                "en": { "title": "Developed Apps" },
-                "es": { "title": "Aplicaciones Desarrolladas" },
-                "ca": { "title": "Aplicacions Desenvolupades" }
-            },
-
-            "items": [
+                },
                 {
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": { "bg": null, "fill": null }
+                        "img": null,
+                        "fa": "fa-solid fa-flag-checkered",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
+                    "dates": {
+                        "start": "2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://atenea.incibe.es/" }
+                    ],
                     "locales": {
-                        "en": { "title": "Falla Plaza Rodrigo", "text": "A web app developed for a cultural association using **React, Ionic & Node.js**." },
-                        "es": { "title": "Falla Plaza Rodrigo", "text": "Aplicación web desarrollada para una asociación cultural utilizando **React, Ionic y Node.js**." },
-                        "ca": { "title": "Falla Plaza Rodrigo", "text": "Aplicació web desenvolupada per a una associació cultural utilitzant **React, Ionic i Node.js**." }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "travel",
-            "component": "ArticleThread",
-            "config": {},
-            "locales": {
-                "en": { "title": "Countries I've Visited" },
-                "es": { "title": "Países que He Visitado" },
-                "ca": { "title": "Països que He Visitats" }
-            },
-
-            "items": [
-                {
-                    "dates": { "start": "2022", "end": null },
-                    "locales": {
-                        "en": { "title": "🇳🇱 Netherlands", "info": "Visited Amsterdam." },
-                        "es": { "title": "🇳🇱 Países Bajos", "info": "Visité Ámsterdam." },
-                        "ca": { "title": "🇳🇱 Països Baixos", "info": "Vaig visitar Amsterdam." }
-                    }
-                },
-                {
-                    "dates": { "start": "2023", "end": null },
-                    "locales": {
-                        "en": { "title": "🇫🇷 France", "info": "Visited Paris." },
-                        "es": { "title": "🇫🇷 Francia", "info": "Visité París." },
-                        "ca": { "title": "🇫🇷 França", "info": "Vaig visitar París." }
-                    }
-                },
-                {
-                    "dates": { "start": "2023", "end": null },
-                    "locales": {
-                        "en": { "title": "🇩🇪 Germany", "info": "Visited Berlin." },
-                        "es": { "title": "🇩🇪 Alemania", "info": "Visité Berlín." },
-                        "ca": { "title": "🇩🇪 Alemanya", "info": "Vaig visitar Berlín." }
-                    }
-                },
-                {
-                    "dates": { "start": "2023", "end": null },
-                    "locales": {
-                        "en": { "title": "🇮🇪 Ireland", "info": "Visited Dublin." },
-                        "es": { "title": "🇮🇪 Irlanda", "info": "Visité Dublín." },
-                        "ca": { "title": "🇮🇪 Irlanda", "info": "Vaig visitar Dublín." }
-                    }
-                },
-                {
-                    "dates": { "start": "2023", "end": null },
-                    "locales": {
-                        "en": { "title": "🇬🇧 United Kingdom", "info": "Visited London." },
-                        "es": { "title": "🇬🇧 Reino Unido", "info": "Visité Londres." },
-                        "ca": { "title": "🇬🇧 Regne Unit", "info": "Vaig visitar Londres." }
-                    }
-                },
-                {
-                    "dates": { "start": "2024", "end": null },
-                    "locales": {
-                        "en": { "title": "🇦🇩 Andorra", "info": "Visited Andorra la Vella." },
-                        "es": { "title": "🇦🇩 Andorra", "info": "Visité Andorra la Vella." },
-                        "ca": { "title": "🇦🇩 Andorra", "info": "Vaig visitar Andorra la Vella." }
-                    }
-                },
-                {
-                    "dates": { "start": "2024", "end": null },
-                    "locales": {
-                        "en": { "title": "🇨🇭 Switzerland", "info": "Visited Zurich." },
-                        "es": { "title": "🇨🇭 Suiza", "info": "Visité Zúrich." },
-                        "ca": { "title": "🇨🇭 Suïssa", "info": "Vaig visitar Zuric." }
+                        "en": {
+                            "title": "Atenea Cybersecurity Challenges",
+                            "text": "Participated in multiple challenges on **Atenea (INCIBE), achieving a total score of 500 points.**"
+                        },
+                        "es": {
+                            "text": "Participación en múltiples retos en **Atenea (INCIBE), logrando un puntaje total de 500 puntos.**"
+                        },
+                        "ca": {
+                            "text": "Participació en múltiples reptes en **Atenea (INCIBE), aconseguint una puntuació total de 500 punts.**"
+                        }
                     }
                 }
             ]

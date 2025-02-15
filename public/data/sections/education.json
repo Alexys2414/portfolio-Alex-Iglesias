@@ -16,7 +16,6 @@
             "title_long": "**Formació** Acadèmica"
         }
     },
-
     "articles": [
         {
             "id": "academic",
@@ -26,63 +25,103 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/education-1.png",
+                        "img": "images/pictures/Banner_Curso_CCSP_Actualizado_Nuevo_Logo.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "09/2023",
+                        "start": "10/01/2024",
                         "end": "Present"
                     },
                     "locales": {
                         "en": {
-                            "title": "Specialization Degree in Cybersecurity",
+                            "title": "Specialization Degree in Cybersecurity (CETI)",
                             "info": "IES Camp de Morvedre",
-                            "text": "Currently studying a specialization course in cybersecurity, gaining knowledge in network security, ethical hacking, and information protection.",
-                            "tags": ["Cybersecurity", "Ethical Hacking", "Networking"]
+                            "text": "Currently studying a specialization in cybersecurity, focused on **network security, ethical hacking, and cyber defense**. Participating in a cybersecurity innovation project in collaboration with leading centers in Valencia.",
+                            "tags": ["Cybersecurity", "Ethical Hacking", "Network Security"]
                         },
                         "es": {
-                            "title": "Grado de Especialización en Ciberseguridad",
+                            "title": "Grado de Especialización en Ciberseguridad (CETI)",
                             "info": "IES Camp de Morvedre",
-                            "text": "Actualmente cursando una especialización en ciberseguridad, adquiriendo conocimientos en seguridad de redes, hacking ético y protección de información.",
-                            "tags": ["Ciberseguridad", "Hacking Ético", "Redes"]
+                            "text": "Actualmente cursando una especialización en ciberseguridad, centrada en **seguridad de redes, hacking ético y ciberdefensa**. Participando en un proyecto de innovación en ciberseguridad en colaboración con centros punteros de la Comunidad Valenciana.",
+                            "tags": ["Ciberseguridad", "Hacking Ético", "Seguridad de Redes"]
                         },
                         "vl": {
-                            "title": "Grau d'Especialització en Ciberseguretat",
+                            "title": "Grau d'Especialització en Ciberseguretat (CETI)",
                             "info": "IES Camp de Morvedre",
-                            "text": "Actualment cursant una especialització en ciberseguretat, adquirint coneixements en seguretat de xarxes, hacking ètic i protecció de la informació.",
-                            "tags": ["Ciberseguretat", "Hacking Ètic", "Xarxes"]
+                            "text": "Actualment cursant una especialització en ciberseguretat, centrada en **seguretat de xarxes, hacking ètic i ciberdefensa**. Participant en un projecte d'innovació en ciberseguretat en col·laboració amb centres punters de la Comunitat Valenciana.",
+                            "tags": ["Ciberseguretat", "Hacking Ètic", "Seguretat de Xarxes"]
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/education-2.png",
+                        "img": "images/pictures/DAW.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "09/2021",
-                        "end": "06/2023"
+                        "start": "09/09/2022",
+                        "end": "06/08/2024"
+                    },
+                   "locales": {
+                        "en": {
+                            "title": "Higher Degree in Web Application Development (DAW)",
+                            "info": "IES Camp de Morvedre",
+                            "text": "Completed a higher degree focused on **frontend and backend web development, database management, and cybersecurity**. Gained hands-on experience in modern web technologies.",
+                            "tags": ["Web Development", "JavaScript", "React", "Node.js", "SQL"]
+                        },
+                        "es": {
+                            "title": "Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+                            "info": "IES Camp de Morvedre",
+                            "text": "Finalizado grado superior centrado en **desarrollo web frontend y backend, gestión de bases de datos y ciberseguridad**. Experiencia práctica en tecnologías web modernas.",
+                            "tags": ["Desarrollo Web", "JavaScript", "React", "Node.js", "SQL"]
+                        },
+                        "vl": {
+                            "title": "Grau Superior en Desenvolupament d'Aplicacions Web (DAW)",
+                            "info": "IES Camp de Morvedre",
+                            "text": "Finalitzat grau superior centrat en **desenvolupament web frontend i backend, gestió de bases de dades i ciberseguretat**. Experiència pràctica en tecnologies web modernes.",
+                            "tags": ["Desenvolupament Web", "JavaScript", "React", "Node.js", "SQL"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/SMR.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "09/09/2020",
+                        "end": "06/08/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Higher Degree in Web Application Development",
+                            "title": "Intermediate Degree in Microcomputer Systems and Networks",
                             "info": "IES Camp de Morvedre",
-                            "text": "Completed a higher degree in web development, focusing on frontend and backend technologies, database management, and user interface design.",
-                            "tags": ["JavaScript", "React", "Node.js", "SQL"]
+                            "text": "Completed a degree focused on **computer assembly, network administration, cybersecurity, and IT support**. Gained practical experience in configuring network infrastructures and troubleshooting IT systems.",
+                            "tags": ["IT Support", "Networking", "Cybersecurity"]
                         },
                         "es": {
-                            "title": "Grado Superior en Desarrollo de Aplicaciones Web",
+                            "title": "Grado Medio en Sistemas Microinformáticos y Redes",
                             "info": "IES Camp de Morvedre",
-                            "text": "Finalizado grado superior en desarrollo web, con enfoque en tecnologías frontend y backend, gestión de bases de datos y diseño de interfaces.",
-                            "tags": ["JavaScript", "React", "Node.js", "SQL"]
+                            "text": "Finalizado grado medio enfocado en **montaje de equipos, administración de redes, ciberseguridad y soporte técnico**. Adquirí experiencia práctica en la configuración de infraestructuras de red y solución de problemas informáticos.",
+                            "tags": ["Soporte IT", "Redes", "Ciberseguridad"]
                         },
                         "vl": {
-                            "title": "Grau Superior en Desenvolupament d'Aplicacions Web",
+                            "title": "Grau Mitjà en Sistemes Microinformàtics i Xarxes",
                             "info": "IES Camp de Morvedre",
-                            "text": "Finalitzat grau superior en desenvolupament web, amb enfocament en tecnologies frontend i backend, gestió de bases de dades i disseny d'interfícies.",
-                            "tags": ["JavaScript", "React", "Node.js", "SQL"]
+                            "text": "Finalitzat grau mitjà enfocat en **muntatge d'equips, administració de xarxes, ciberseguretat i suport tècnic**. Vaig adquirir experiència pràctica en la configuració d'infraestructures de xarxa i resolució de problemes informàtics.",
+                            "tags": ["Suport IT", "Xarxes", "Ciberseguretat"]
                         }
                     }
                 }

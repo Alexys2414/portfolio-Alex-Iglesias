@@ -12,7 +12,7 @@
             "title_long_prefix": "Consulta mis",
             "title_long": "Actualizaciones **Recientes**"
         },
-        "ca": {
+        "vl": {
             "title": "Vida Recent",
             "title_menu": "Actualitzacions",
             "title_long_prefix": "Consulta les meues",
@@ -31,7 +31,7 @@
                     "locales": {
                         "en": { "title": "01", "info": "App developed" },
                         "es": { "title": "01", "info": "Aplicación desarrollada" },
-                        "ca": { "title": "01", "info": "Aplicació desenvolupada" }
+                        "vl": { "title": "01", "info": "Aplicació desenvolupada" }
                     }
                 },
                 {
@@ -39,7 +39,7 @@
                     "locales": {
                         "en": { "title": "07", "info": "Countries visited" },
                         "es": { "title": "07", "info": "Países visitados" },
-                        "ca": { "title": "07", "info": "Països visitats" }
+                        "vl": { "title": "07", "info": "Països visitats" }
                     }
                 },
                 {
@@ -47,7 +47,7 @@
                     "locales": {
                         "en": { "title": "20,000", "info": "Coffees consumed" },
                         "es": { "title": "20,000", "info": "Cafés consumidos" },
-                        "ca": { "title": "20,000", "info": "Cafès consumits" }
+                        "vl": { "title": "20,000", "info": "Cafès consumits" }
                     }
                 }
             ]
@@ -58,48 +58,65 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
-                "es": { "title": "Feed de **Noticias**" },
-                "ca": { "title": "Actualitzacions **Ràpides**" }
+                "en": { "title": "Recent **Milestones**" },
+                "es": { "title": "Hitos **Recientes**" },
+                "vl": { "title": "Fites **Recents**" }
             },
 
             "items": [
                 {
-                    "dates": { "start": "11/05/2024", "end": null },
+                    "dates": { "start": "03/25/2024", "end": null },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Working on a new **mobile project**!",
-                            "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
+                            "title": "Started developing **Falla Plaza Rodrigo's website**",
+                            "text": "Began working on the official website for Falla Plaza Rodrigo, focusing on event management, news updates, and interactive features for the community."
                         },
                         "es": {
-                            "title": "¡Trabajando en un nuevo **proyecto móvil**!",
-                            "text": "Actualmente desarrollando una aplicación móvil que integra características innovadoras y un diseño fácil de usar, con el objetivo de mejorar la experiencia del usuario y atender necesidades específicas del mercado."
+                            "title": "Inicio del desarrollo de la **web de la Falla Plaza Rodrigo**",
+                            "text": "Comencé a desarrollar la web oficial de la Falla Plaza Rodrigo, centrada en la gestión de eventos, noticias y funcionalidades interactivas para la comunidad."
                         },
-                        "ca": {
-                            "title": "Treballant en un nou **projecte mòbil**!",
-                            "text": "Actualment desenvolupant una aplicació mòbil que integra característiques innovadores i un disseny intuïtiu, amb l'objectiu de millorar l'experiència de l'usuari i satisfer necessitats específiques del mercat."
+                        "vl": {
+                            "title": "Inici del desenvolupament de la **web de la Falla Plaza Rodrigo**",
+                            "text": "Vaig començar a desenvolupar la web oficial de la Falla Plaza Rodrigo, centrada en la gestió d'esdeveniments, notícies i funcionalitats interactives per a la comunitat."
                         }
                     }
                 },
-
                 {
-                    "dates": { "start": "12/12/2024", "end": null },
+                    "dates": { "start": "11/29/2024", "end": null },
                     "links": [
-                        { "string": "see_more", "href": "https://portfolio-alex-iglesias.vercel.app" }
+                        { "string": "see_website", "href": "https://fallaplazarodrigo.es" }
                     ],
                     "locales": {
                         "en": {
-                            "title": "Launched my **personal website**!",
-                            "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
+                            "title": "Launched the **Falla Plaza Rodrigo website and apps**",
+                            "text": "Successfully deployed and presented the official website and mobile applications, offering a new digital experience for members and visitors."
                         },
                         "es": {
-                            "title": "¡Lancé mi **sitio web personal**!",
-                            "text": "Creé un sitio web personal para mostrar mis proyectos, compartir mi trayectoria en programación y proporcionar recursos para otros desarrolladores."
+                            "title": "Publicación y presentación de la **web y apps de la Falla Plaza Rodrigo**",
+                            "text": "Lancé y presenté oficialmente la web y aplicaciones móviles, ofreciendo una nueva experiencia digital para los miembros y visitantes."
                         },
-                        "ca": {
-                            "title": "Vaig llançar el meu **lloc web personal**!",
-                            "text": "Vaig crear un lloc web personal per mostrar els meus projectes, compartir la meua trajectòria en programació i proporcionar recursos per a altres desenvolupadors."
+                        "vl": {
+                            "title": "Publicació i presentació de la **web i apps de la Falla Plaza Rodrigo**",
+                            "text": "Vaig llançar i presentar oficialment la web i aplicacions mòbils, oferint una nova experiència digital per als membres i visitants."
+                        }
+                    }
+                },
+                {
+                    "dates": { "start": "02/01/2025", "end": null },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Started working on **CookGPT**",
+                            "text": "Began developing CookGPT, an AI-powered recipe web app designed to provide personalized meal suggestions based on user preferences."
+                        },
+                        "es": {
+                            "title": "Inicio del desarrollo de **CookGPT**",
+                            "text": "Comencé a desarrollar CookGPT, una aplicación web de recetas con IA diseñada para ofrecer sugerencias de comidas personalizadas según las preferencias del usuario."
+                        },
+                        "vl": {
+                            "title": "Inici del desenvolupament de **CookGPT**",
+                            "text": "Vaig començar a desenvolupar CookGPT, una aplicació web de receptes amb IA dissenyada per oferir suggeriments de menjars personalitzats segons les preferències de l'usuari."
                         }
                     }
                 }
