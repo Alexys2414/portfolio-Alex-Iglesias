@@ -18,6 +18,7 @@ const AppProviders = ({ children }) => (
                     <ThemeProvider>
                         <GlobalStateProvider>
                             {children}
+                            <Analytics/>
                         </GlobalStateProvider>
                     </ThemeProvider>
                 </WindowProvider>
