@@ -169,19 +169,19 @@
             "items": [
                 {
                     "icon": { "img": null, "fa": "fa-brands fa-html5", "faColors": { "bg": "#E34F26", "fill": "#EEE" }},
-                    "value": 100,
+                    "value": 75,
                     "dates": { "start": "2021" },
                     "locales": { "en": { "title": "HTML5" } }
                 },
                 {
                     "icon": { "img": null, "fa": "fa-brands fa-css3", "faColors": { "bg": "#1572B6", "fill": "#EEE" }},
-                    "value": 85,
+                    "value": 65,
                     "dates": { "start": "2021" },
                     "locales": { "en": { "title": "CSS3" } }
                 },
                 {
                     "icon": { "img": null, "fa": "fa-brands fa-js", "faColors": { "bg": "#F7DF1E", "fill": "#111" }},
-                    "value": 50     ,
+                    "value": 45     ,
                     "dates": { "start": "2023" },
                     "locales": { "en": { "title": "JavaScript ES6+" } }
                 },

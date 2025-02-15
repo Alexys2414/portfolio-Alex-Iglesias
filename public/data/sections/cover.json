@@ -170,15 +170,15 @@
                     "locales": {
                         "en": {
                             "title": "Travel",
-                            "info": "Exploring new places, especially in the Netherlands, France, and Japan."
+                            "info": "Exploring new places, like Barcelona, ​​Germany or the Netherlands."
                         },
                         "es": {
                             "title": "Viajar",
-                            "info": "Explorando nuevos lugares, especialmente en Países Bajos, Francia y Japón."
+                            "info": "Explorando nuevos lugares, como Barcelona, Alemania o Paises Bajos."
                         },
                         "vl": {
                             "title": "Viatjar",
-                            "info": "Explorant nous llocs, especialment als Països Baixos, França i Japó."
+                            "info": "Explorant nous llocs, com Barcelona, Alemanya o Països Baixos."
                         }
                     }
                 },
@@ -258,15 +258,15 @@
                     "locales": {
                         "en": {
                             "title": "Music",
-                            "info": "Listening to Orslok, Yung Lean, and Japanese rock bands."
+                            "info": "Listening to Orslok, Yung Beef, and Hyperpop bands."
                         },
                         "es": {
                             "title": "Música",
-                            "info": "Escuchando a Orslok, Yung Lean y bandas de rock japonés."
+                            "info": "Escuchando a Orslok, Yung Beef y bandas de Hyperpop."
                         },
                         "vl": {
                             "title": "Música",
-                            "info": "Escoltant Orslok, Yung Lean i bandes de rock japonés."
+                            "info": "Escoltant Orslok, Yung Beef i bandes de Hyperpop."
                         }
                     }
                 }
