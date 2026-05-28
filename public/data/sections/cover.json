@@ -105,13 +105,13 @@
                     },
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a full-stack web developer with experience in **React, Node.js, .NET, and MySQL**. Passionate about cybersecurity and technology, I am constantly learning and improving my skills.</p><p>Currently, I am completing a **specialization in cybersecurity** while working on various web and mobile projects. I love combining design with functionality to create high-performance applications.</p>"
+                            "text": "<p>I am a **FullStack Developer** focused on building practical web and mobile products with **React, React Native, Node.js, .NET, Django, Python and SQL**.</p><p>During my year at the startup **Trak** in Lanzadera, Valencia, I worked inside a product team on web development, code reviews, technical collaboration and fast-moving startup workflows. My main ongoing project is the **Falla Plaza Rodrigo** website and mobile app, a production ecosystem I continue maintaining and improving. I also built **nmmexico.com** remotely between April and August 2025 with React and .NET.</p>"
                         },
                         "es": {
-                            "text": "<p>Soy un desarrollador web full-stack con experiencia en **React, Node.js, .NET y MySQL**. Apasionado por la ciberseguridad y la tecnología, estoy en constante aprendizaje y mejora de mis habilidades.</p><p>Actualmente, estoy completando una **especialización en ciberseguridad** mientras trabajo en varios proyectos web y móviles. Me encanta combinar diseño y funcionalidad para crear aplicaciones de alto rendimiento.</p>"
+                            "text": "<p>Soy **Desarrollador FullStack** orientado a crear productos web y móviles con **React, React Native, Node.js, .NET, Django, Python y SQL**.</p><p>Durante mi año en la startup **Trak**, en Lanzadera Valencia, he trabajado dentro de un equipo de producto en desarrollo web, revisión de código, colaboración técnica y adaptación a flujos de trabajo propios de una startup. Mi proyecto principal en activo es la **web y app de Falla Plaza Rodrigo**, un ecosistema en producción que sigo manteniendo y mejorando. También desarrollé **nmmexico.com** en remoto entre abril y agosto de 2025 con React y .NET.</p>"
                         },
                         "vl": {
-                            "text": "<p>Sóc un desenvolupador web full-stack amb experiència en **React, Node.js, .NET i MySQL**. Apassionat per la ciberseguretat i la tecnologia, estic en constant aprenentatge i millora de les meues habilitats.</p><p>Actualment, estic completant una **especialització en ciberseguretat** mentre treballe en diversos projectes web i mòbils. M'encanta combinar disseny i funcionalitat per crear aplicacions d'alt rendiment.</p>"
+                            "text": "<p>Sóc **Desenvolupador FullStack** orientat a crear productes web i mòbils amb **React, React Native, Node.js, .NET, Django, Python i SQL**.</p><p>Durant el meu any en la startup **Trak**, en Lanzadera València, he treballat dins d'un equip de producte en desenvolupament web, revisió de codi, col·laboració tècnica i adaptació a fluxos de treball propis d'una startup. El meu projecte principal en actiu és la **web i app de Falla Plaza Rodrigo**, un ecosistema en producció que continue mantenint i millorant. També vaig desenvolupar **nmmexico.com** en remot entre abril i agost de 2025 amb React i .NET.</p>"
                         }
                     }
                 }
@@ -135,6 +135,9 @@
                 },
                 "ko": {
                     "title": "개인 **관심사**"
+                },
+                "vl": {
+                    "title": "Interessos **personals**"
                 }
             },
             "items": [
@@ -170,11 +173,11 @@
                     "locales": {
                         "en": {
                             "title": "Travel",
-                            "info": "Exploring new places, like Barcelona, ​​Germany or the Netherlands."
+                            "info": "Exploring new places, like Barcelona, Germany or the Netherlands."
                         },
                         "es": {
                             "title": "Viajar",
-                            "info": "Explorando nuevos lugares, como Barcelona, Alemania o Paises Bajos."
+                            "info": "Explorando nuevos lugares, como Barcelona, Alemania o Países Bajos."
                         },
                         "vl": {
                             "title": "Viatjar",
@@ -273,7 +276,4 @@
             ]
         }
     ]
-}      
-            
-        
-    
+}

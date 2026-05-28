@@ -35,6 +35,62 @@
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": {"bg": "#00A86B", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "04/15/2026",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "/certificates/certificado-alex-iglesias-myf0qj5s.pdf" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Introduction to **AI Development**",
+                            "text": "BIG school certificate for completing the training program **Development with AI: from 0 to Production**."
+                        },
+                        "es": {
+                            "title": "Iniciación al **Desarrollo con IA**",
+                            "text": "Certificado de BIG school por completar la formación **Desarrollo con IA: de 0 a Producción**."
+                        },
+                        "ca": {
+                            "title": "Iniciació al **Desenvolupament amb IA**",
+                            "text": "Certificat de BIG school per completar la formació **Desenvolupament amb IA: de 0 a Producció**."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-award",
+                        "faColors": {"bg": "#0078D4", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "2026",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "/certificates/certificado-alex-iglesias-3582v9c9.pdf" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "BIG school **Certificate**",
+                            "text": "Additional BIG school certificate available as a linked PDF for CV and portfolio verification."
+                        },
+                        "es": {
+                            "title": "**Certificado** BIG school",
+                            "text": "Certificado adicional de BIG school disponible como PDF enlazado para el CV y verificación desde el portfolio."
+                        },
+                        "ca": {
+                            "title": "**Certificat** BIG school",
+                            "text": "Certificat addicional de BIG school disponible com a PDF enllaçat per al CV i verificació des del portfolio."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-solid fa-user-secret",
                         "faColors": {"bg": "#326CE5", "fill": "#EEE"}
                     },

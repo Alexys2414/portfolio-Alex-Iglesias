@@ -10,13 +10,12 @@
             "title_long_prefix": "Explora",
             "title_long": "Mi **Portafolio**"
         },
-        "ca": {
+        "vl": {
             "title": "Portafoli",
             "title_long_prefix": "Explora",
             "title_long": "El meu **Portafoli**"
         }
     },
-
     "articles": [
         {
             "id": "portfolio",
@@ -26,34 +25,55 @@
                 {
                     "id": "apps",
                     "locales": {
-                        "en": { "singular": "App", "plural": "Apps" },
-                        "es": { "singular": "App", "plural": "Apps" },
-                        "ca": { "singular": "App", "plural": "Apps" }
+                        "en": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        },
+                        "es": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        },
+                        "vl": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        }
                     }
                 },
                 {
                     "id": "websites",
                     "locales": {
-                        "en": { "singular": "Website", "plural": "Web" },
-                        "es": { "singular": "Sitio web", "plural": "Web" },
-                        "ca": { "singular": "Lloc web", "plural": "Web" }
+                        "en": {
+                            "singular": "Website",
+                            "plural": "Websites"
+                        },
+                        "es": {
+                            "singular": "Sitio web",
+                            "plural": "Webs"
+                        },
+                        "vl": {
+                            "singular": "Lloc web",
+                            "plural": "Webs"
+                        }
                     }
                 }
             ],
-
             "items": [
                 {
                     "categoryId": "websites",
                     "icon": {
                         "img": "images/pictures/Falla_Plaza_Rodrigo.png",
                         "fa": "",
-                        "faColors": { "bg": null, "fill": null }
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
-
                     "links": [
-                        { "faIcon": "fa-solid fa-link", "href": "https://fallaplazarodrigo.es" }
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://fallaplazarodrigo.es"
+                        }
                     ],
-
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
@@ -61,39 +81,44 @@
                             "images": ["images/pictures/falla_web_1.png", "images/pictures/falla_web_2.png"]
                         }
                     },
-
                     "locales": {
                         "en": {
-                            "title": "Falla Plaza Rodrigo Website",
-                            "text": "A website developed for the cultural association Falla Plaza Rodrigo, designed to provide information about events, news, and the history of the organization.",
-                            "tags": ["React", "Node.js", "Firebase", "Web Development"]
+                            "title": "Falla Plaza Rodrigo Website - Main Ongoing Project",
+                            "text": "My largest active project: a production website for the Falla Plaza Rodrigo cultural association. I continue maintaining and improving it, covering frontend, backend, content structure, event/news publishing and integrations for the organization.",
+                            "tags": ["Main Project", "React", "Node.js", "Firebase", "Ongoing"]
                         },
                         "es": {
-                            "title": "Sitio Web Falla Plaza Rodrigo",
-                            "text": "Un sitio web desarrollado para la Asociación Cultural Falla Plaza Rodrigo, diseñado para proporcionar información sobre eventos, noticias e historia de la organización.",
-                            "tags": ["React", "Node.js", "Firebase", "Desarrollo Web"]
+                            "title": "Web Falla Plaza Rodrigo - Proyecto principal en activo",
+                            "text": "Mi proyecto más grande y en mantenimiento continuo: una web en producción para la Asociación Cultural Falla Plaza Rodrigo. Me encargo de seguir mejorándola y mantenerla, trabajando frontend, backend, estructura de contenidos, publicación de eventos/noticias e integraciones para la organización.",
+                            "tags": ["Proyecto Principal", "React", "Node.js", "Firebase", "En activo"]
                         },
-                        "ca": {
-                            "title": "Lloc Web de la Falla Plaza Rodrigo",
-                            "text": "Un lloc web desenvolupat per a l'Associació Cultural Falla Plaza Rodrigo, dissenyat per proporcionar informació sobre esdeveniments, notícies i història de l'organització.",
-                            "tags": ["React", "Node.js", "Firebase", "Desenvolupament Web"]
+                        "vl": {
+                            "title": "Web Falla Plaza Rodrigo - Projecte principal en actiu",
+                            "text": "El meu projecte més gran i en manteniment continu: una web en producció per a l'Associació Cultural Falla Plaza Rodrigo. M'encarregue de continuar millorant-la i mantindre-la, treballant frontend, backend, estructura de continguts, publicació d'esdeveniments/notícies i integracions per a l'organització.",
+                            "tags": ["Projecte Principal", "React", "Node.js", "Firebase", "En actiu"]
                         }
                     }
                 },
-
                 {
                     "categoryId": "apps",
                     "icon": {
                         "img": "images/pictures/Falla_Plaza_Rodrigo.png",
                         "fa": "",
-                        "faColors": { "bg": null, "fill": null }
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
-
                     "links": [
-                        { "faIcon": "fa-brands fa-apple", "href": "https://apps.apple.com/us/app/falla-plaza-rodrigo/id6737492055" },
-                        { "faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps/" }
+                        {
+                            "faIcon": "fa-brands fa-apple",
+                            "href": "https://apps.apple.com/us/app/falla-plaza-rodrigo/id6737492055"
+                        },
+                        {
+                            "faIcon": "fa-brands fa-google-play",
+                            "href": "https://play.google.com/store/apps/"
+                        }
                     ],
-
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
@@ -101,22 +126,62 @@
                             "images": ["images/pictures/falla_app_1.png", "images/pictures/falla_app_2.png"]
                         }
                     },
-
                     "locales": {
                         "en": {
-                            "title": "Falla Plaza Rodrigo App",
-                            "text": "A mobile app complementing the website, providing members with notifications, event schedules, and exclusive content.",
-                            "tags": ["Ionic", "Capacitor", "Firebase", "Mobile Development"]
+                            "title": "Falla Plaza Rodrigo App - Mobile Extension",
+                            "text": "Mobile app connected to the Falla Plaza Rodrigo ecosystem. It extends the website with member-focused features such as notifications, event schedules, exclusive content and mobile access to association updates.",
+                            "tags": ["Mobile App", "Ionic", "Capacitor", "Firebase", "Production"]
                         },
                         "es": {
-                            "title": "App de la Falla Plaza Rodrigo",
-                            "text": "Una aplicación móvil complementaria al sitio web, que brinda a los miembros notificaciones, horarios de eventos y contenido exclusivo.",
-                            "tags": ["Ionic", "Capacitor", "Firebase", "Desarrollo Móvil"]
+                            "title": "App Falla Plaza Rodrigo - Extensión móvil",
+                            "text": "Aplicación móvil conectada al ecosistema de Falla Plaza Rodrigo. Amplía la web con funciones para miembros como notificaciones, horarios de eventos, contenido exclusivo y acceso móvil a novedades de la asociación.",
+                            "tags": ["App Móvil", "Ionic", "Capacitor", "Firebase", "Producción"]
                         },
-                        "ca": {
-                            "title": "App de la Falla Plaza Rodrigo",
-                            "text": "Una aplicació mòbil complementària al lloc web, que proporciona als membres notificacions, horaris d'esdeveniments i contingut exclusiu.",
-                            "tags": ["Ionic", "Capacitor", "Firebase", "Desenvolupament Mòbil"]
+                        "vl": {
+                            "title": "App Falla Plaza Rodrigo - Extensió mòbil",
+                            "text": "Aplicació mòbil connectada a l'ecosistema de Falla Plaza Rodrigo. Amplia la web amb funcions per a membres com notificacions, horaris d'esdeveniments, contingut exclusiu i accés mòbil a novetats de l'associació.",
+                            "tags": ["App Mòbil", "Ionic", "Capacitor", "Firebase", "Producció"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/nm-mexico-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://nmmexico.com/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "NM México Website",
+                            "text": "Remote freelance website developed for a Mexican client between April and August 2025, built with React on the frontend and .NET on the backend.",
+                            "tags": ["React", ".NET", "Remote", "FullStack"]
+                        },
+                        "es": {
+                            "title": "Web NM México",
+                            "text": "Web freelance desarrollada en remoto para un cliente de México entre abril y agosto de 2025, construida con React en el frontend y .NET en el backend.",
+                            "tags": ["React", ".NET", "Remoto", "FullStack"]
+                        },
+                        "vl": {
+                            "title": "Web NM México",
+                            "text": "Web freelance desenvolupada en remot per a un client de Mèxic entre abril i agost de 2025, construïda amb React en el frontend i .NET en el backend.",
+                            "tags": ["React", ".NET", "Remot", "FullStack"]
                         }
                     }
                 }

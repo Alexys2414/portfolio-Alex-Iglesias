@@ -33,40 +33,40 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Development",
-                            "text": "Experienced in building and maintaining full-stack web applications."
+                            "title": "**FullStack** Development",
+                            "text": "Building web and mobile products across frontend, backend, APIs, databases and deployment workflows."
                         },
                         "es": {
-                            "title": "Desarrollo **Full-Stack**",
-                            "text": "Experiencia en la creación y mantenimiento de aplicaciones web full-stack."
+                            "title": "Desarrollo **FullStack**",
+                            "text": "Creación de productos web y móviles trabajando frontend, backend, APIs, bases de datos y flujos de despliegue."
                         },
                         "vl": {
-                            "title": "Desenvolupament **Full-Stack**",
-                            "text": "Experiència en la creació i manteniment d'aplicacions web full-stack."
+                            "title": "Desenvolupament **FullStack**",
+                            "text": "Creació de productes web i mòbils treballant frontend, backend, APIs, bases de dades i fluxos de desplegament."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-lock",
+                        "fa": "fa-solid fa-rocket",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#6C5CE7",
+                            "fill": "#EEE"
                         }
                     },
                     "locales": {
                         "en": {
-                            "title": "**Cybersecurity**",
-                            "text": "Passionate about security, specializing in ethical hacking and secure coding."
+                            "title": "**Startup** Product Work",
+                            "text": "Used to product-team workflows, code review, technical collaboration and fast iteration."
                         },
                         "es": {
-                            "title": "**Ciberseguridad**",
-                            "text": "Apasionado por la seguridad, especializado en hacking ético y desarrollo seguro."
+                            "title": "Trabajo de **Startup**",
+                            "text": "Acostumbrado a flujos de producto, revisión de código, colaboración técnica e iteración rápida."
                         },
                         "vl": {
-                            "title": "**Ciberseguretat**",
-                            "text": "Apassionat per la seguretat, especialitzat en hacking ètic i desenvolupament segur."
+                            "title": "Treball de **Startup**",
+                            "text": "Acostumat a fluxos de producte, revisió de codi, col·laboració tècnica i iteració ràpida."
                         }
                     }
                 },
@@ -81,16 +81,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**React & Node.js**",
-                            "text": "Expert in modern web development using React, Node.js, and Express."
+                            "title": "**React & Mobile Apps**",
+                            "text": "Frontend and mobile development with React, React Native, Ionic and Capacitor."
                         },
                         "es": {
-                            "title": "**React & Node.js**",
-                            "text": "Experto en desarrollo web moderno con React, Node.js y Express."
+                            "title": "**React & Apps móviles**",
+                            "text": "Desarrollo frontend y móvil con React, React Native, Ionic y Capacitor."
                         },
                         "vl": {
-                            "title": "**React & Node.js**",
-                            "text": "Expert en desenvolupament web modern amb React, Node.js i Express."
+                            "title": "**React & Apps mòbils**",
+                            "text": "Desenvolupament frontend i mòbil amb React, React Native, Ionic i Capacitor."
                         }
                     }
                 },
@@ -105,16 +105,40 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**.NET & C#**",
-                            "text": "Currently learning and developing applications with ASP.NET Core."
+                            "title": "**.NET Backend**",
+                            "text": "Backend development with .NET for APIs and business logic, used in client projects such as NM México."
                         },
                         "es": {
-                            "title": "**.NET & C#**",
-                            "text": "Actualmente aprendiendo y desarrollando aplicaciones con ASP.NET Core."
+                            "title": "Backend **.NET**",
+                            "text": "Desarrollo backend con .NET para APIs y lógica de negocio, usado en proyectos de cliente como NM México."
                         },
                         "vl": {
-                            "title": "**.NET & C#**",
-                            "text": "Actualment aprenent i desenvolupant aplicacions amb ASP.NET Core."
+                            "title": "Backend **.NET**",
+                            "text": "Desenvolupament backend amb .NET per a APIs i lògica de negoci, usat en projectes de client com NM México."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {
+                            "bg": "#3776AB",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Django & Python**",
+                            "text": "Backend development with Django and Python for product features, APIs and business logic."
+                        },
+                        "es": {
+                            "title": "**Django & Python**",
+                            "text": "Desarrollo backend con Django y Python para funcionalidades de producto, APIs y lógica de negocio."
+                        },
+                        "vl": {
+                            "title": "**Django & Python**",
+                            "text": "Desenvolupament backend amb Django i Python per a funcionalitats de producte, APIs i lògica de negoci."
                         }
                     }
                 }
@@ -127,108 +151,333 @@
             "locales": {
                 "en": {
                     "title": "Backend"
+                },
+                "es": {
+                    "title": "Backend"
+                },
+                "vl": {
+                    "title": "Backend"
                 }
             },
             "items": [
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-node-js", "faColors": { "bg": "#339933", "fill": "#EEE" }},
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {
+                            "bg": "#339933",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-microsoft",
+                        "faColors": {
+                            "bg": "#0078D4",
+                            "fill": "#EEE"
+                        }
+                    },
                     "value": 40,
-                    "dates": { "start": "2019" },
-                    "locales": { "en": { "title": "Node.js" } }
+                    "dates": {
+                        "start": "2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": ".NET & C#"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-microsoft", "faColors": { "bg": "#0078D4", "fill": "#EEE" }},
-                    "value": 5,
-                    "dates": { "start": "2025" },
-                    "locales": { "en": { "title": ".NET & C#" } }
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {
+                            "bg": "#3776AB",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python & Django"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-solid fa-database", "faColors": { "bg": "#4479A1", "fill": "#EEE" }},
-                    "value": 25,
-                    "dates": { "start": "2023" },
-                    "locales": { "en": { "title": "MySQL" } }
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": "#4479A1",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 35,
+                    "dates": {
+                        "start": "2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SQL / MySQL"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-git", "faColors": { "bg": "#F05032", "fill": "#111" }},
-                    "value": 55,
-                    "dates": { "start": "2023" },
-                    "locales": { "en": { "title": "Git" } }
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {
+                            "bg": "#F05032",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git & Code Review"
+                        }
+                    }
                 }
             ]
         },
-
         {
             "id": "front_end_programming",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": { "title": "Frontend Development" },
-                "es": { "title": "Desarrollo Frontend" },
-                "vl": { "title": "Desenvolupament Frontend" }
+                "en": {
+                    "title": "Frontend & Mobile Development"
+                },
+                "es": {
+                    "title": "Desarrollo Frontend y Móvil"
+                },
+                "vl": {
+                    "title": "Desenvolupament Frontend i Mòbil"
+                }
             },
             "items": [
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-html5", "faColors": { "bg": "#E34F26", "fill": "#EEE" }},
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {
+                            "bg": "#E34F26",
+                            "fill": "#EEE"
+                        }
+                    },
                     "value": 75,
-                    "dates": { "start": "2021" },
-                    "locales": { "en": { "title": "HTML5" } }
+                    "dates": {
+                        "start": "2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-css3", "faColors": { "bg": "#1572B6", "fill": "#EEE" }},
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {
+                            "bg": "#1572B6",
+                            "fill": "#EEE"
+                        }
+                    },
                     "value": 65,
-                    "dates": { "start": "2021" },
-                    "locales": { "en": { "title": "CSS3" } }
+                    "dates": {
+                        "start": "2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-js", "faColors": { "bg": "#F7DF1E", "fill": "#111" }},
-                    "value": 45     ,
-                    "dates": { "start": "2023" },
-                    "locales": { "en": { "title": "JavaScript ES6+" } }
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+"
+                        }
+                    }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-brands fa-react", "faColors": { "bg": "#61DAFB", "fill": "#111" }},
-                    "value": 40,
-                    "dates": { "start": "2024" },
-                    "locales": { "en": { "title": "React.js" } }
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React.js"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React Native"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {
+                            "bg": "#2D3436",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ionic & Capacitor"
+                        }
+                    }
                 }
             ]
         },
-
         {
             "id": "languages",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "vl": { "title": "Idiomes" }
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                },
+                "vl": {
+                    "title": "Idiomes"
+                }
             },
             "items": [
                 {
-                    "icon": { "img": "images/flags/es.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "icon": {
+                        "img": "images/flags/es.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
                     "value": null,
                     "locales": {
-                        "en": { "title": "Spanish", "info": "Native speaker." },
-                        "es": { "title": "Español", "info": "Hablante nativo." },
-                        "vl": { "title": "Espanyol", "info": "Parlant nadiu." }
+                        "en": {
+                            "title": "Spanish",
+                            "info": "Native speaker."
+                        },
+                        "es": {
+                            "title": "Español",
+                            "info": "Hablante nativo."
+                        },
+                        "vl": {
+                            "title": "Espanyol",
+                            "info": "Parlant nadiu."
+                        }
                     }
                 },
                 {
-                    "icon": { "img": "images/flags/en.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
                     "value": null,
                     "locales": {
-                        "en": { "title": "English", "info": "Fluent in spoken and written communication." },
-                        "es": { "title": "Inglés", "info": "Fluido en comunicación oral y escrita." },
-                        "vl": { "title": "Anglès", "info": "Fluid en comunicació oral i escrita." }
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in spoken and written communication."
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "info": "Fluido en comunicación oral y escrita."
+                        },
+                        "vl": {
+                            "title": "Anglés",
+                            "info": "Fluid en comunicació oral i escrita."
+                        }
                     }
                 },
                 {
-                    "icon": { "img": "images/flags/vl.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "icon": {
+                        "img": "images/flags/vl.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
                     "value": null,
                     "locales": {
-                        "en": { "title": "Valencian", "info": "Fluent in spoken and written communication." },
-                        "es": { "title": "Valenciano", "info": "Fluido en comunicación oral y escrita." },
-                        "vl": { "title": "Valencià", "info": "Fluid en comunicació oral i escrita." }
+                        "en": {
+                            "title": "Valencian",
+                            "info": "Fluent in spoken and written communication."
+                        },
+                        "es": {
+                            "title": "Valenciano",
+                            "info": "Fluido en comunicación oral y escrita."
+                        },
+                        "vl": {
+                            "title": "Valencià",
+                            "info": "Fluid en comunicació oral i escrita."
+                        }
                     }
                 }
             ]

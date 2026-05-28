@@ -5,179 +5,191 @@
             "title_long_prefix": "Summary of my",
             "title_long": "**Work** Experience"
         },
-
         "es": {
             "title": "Experiencia",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
         },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
+        "vl": {
+            "title": "Experiència",
+            "title_long_prefix": "Resum de la meua",
+            "title_long": "Experiència **Laboral**"
         }
     },
-
     "articles": [
         {
             "id": "work",
             "component": "ArticleTimeline",
             "config": {},
             "locales": {},
-
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": {
+                            "bg": "#6C5CE7",
+                            "fill": "#EEE"
+                        }
                     },
                     "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
+                        "start": "05/01/2025",
+                        "end": "05/01/2026"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
+                            "title": "FullStack Developer",
+                            "info": "Trak - Lanzadera, Valencia",
+                            "text": "Worked for one year in a startup product environment, contributing to web and mobile development, code review, technical collaboration and fast iteration with the team. Built and maintained features using React, React Native, Django and Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
+                            "title": "Desarrollador FullStack",
+                            "info": "Trak - Lanzadera, Valencia",
+                            "text": "Trabajo durante un año en un entorno startup de producto, participando en desarrollo web y móvil, revisión de código, colaboración técnica y adaptación a flujos ágiles del equipo. Desarrollo y mantenimiento de funcionalidades con React, React Native, Django y Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
                         },
-                        "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
-                            "tags": null
+                        "vl": {
+                            "title": "Desenvolupador FullStack",
+                            "info": "Trak - Lanzadera, València",
+                            "text": "Treball durant un any en un entorn startup de producte, participant en desenvolupament web i mòbil, revisió de codi, col·laboració tècnica i adaptació a fluxos àgils de l'equip. Desenvolupament i manteniment de funcionalitats amb React, React Native, Django i Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-3.png",
+                        "img": "images/pictures/Falla_Plaza_Rodrigo.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
+                        "start": "03/25/2024",
+                        "end": "Present"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
+                            "title": "FullStack Developer - Main Ongoing Project",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Main active project in production. Development and continuous maintenance of the Falla Plaza Rodrigo website and mobile app, covering frontend, backend, Firebase integration, event/news publishing, notifications and improvements for the association.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
                         },
                         "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
+                            "title": "Desarrollador FullStack - Proyecto principal en activo",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Proyecto principal en producción. Desarrollo y mantenimiento continuo de la web y app móvil de Falla Plaza Rodrigo, trabajando frontend, backend, integración con Firebase, publicación de eventos/noticias, notificaciones y mejoras para la asociación.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
                         },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
-                            "tags": null
+                        "vl": {
+                            "title": "Desenvolupador FullStack - Projecte principal en actiu",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Projecte principal en producció. Desenvolupament i manteniment continu de la web i app mòbil de Falla Plaza Rodrigo, treballant frontend, backend, integració amb Firebase, publicació d'esdeveniments/notícies, notificacions i millores per a l'associació.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "img": "images/pictures/nm-mexico-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
+                        "start": "04/01/2025",
+                        "end": "08/01/2025"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
+                            "title": "FullStack Developer - Remote Project",
+                            "info": "NM México",
+                            "text": "Five-month remote freelance project for a client in Mexico. Developed the website with React on the frontend and .NET on the backend, delivering a complete FullStack web solution.",
+                            "tags": ["React", ".NET", "Remote", "FullStack"]
                         },
                         "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
+                            "title": "Desarrollador FullStack - Proyecto remoto",
+                            "info": "NM México",
+                            "text": "Proyecto freelance remoto de cinco meses para un cliente de México. Desarrollo de la web con React en el frontend y .NET en el backend, entregando una solución web FullStack completa.",
+                            "tags": ["React", ".NET", "Remoto", "FullStack"]
                         },
-                        "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
-                            "tags": null
+                        "vl": {
+                            "title": "Desenvolupador FullStack - Projecte remot",
+                            "info": "NM México",
+                            "text": "Projecte freelance remot de cinc mesos per a un client de Mèxic. Desenvolupament de la web amb React en el frontend i .NET en el backend, entregant una solució web FullStack completa.",
+                            "tags": ["React", ".NET", "Remot", "FullStack"]
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                        "fa": "fa-solid fa-screwdriver-wrench",
+                        "faColors": {
+                            "bg": "#0984E3",
+                            "fill": "#EEE"
+                        }
                     },
                     "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
+                        "start": "2024",
+                        "end": "2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "IT Support Technician",
+                            "info": "Ornenes Apuestas",
+                            "text": "Six-month role providing technical IT support, troubleshooting equipment and software issues, maintaining systems and helping users with day-to-day incidents.",
+                            "tags": ["IT Support", "Troubleshooting", "Systems", "Hardware"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "Técnico Informático",
+                            "info": "Ornenes Apuestas",
+                            "text": "Puesto de seis meses realizando soporte técnico informático, resolución de incidencias de equipos y software, mantenimiento de sistemas y ayuda a usuarios en el día a día.",
+                            "tags": ["Soporte Técnico", "Incidencias", "Sistemas", "Hardware"]
                         },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                        "vl": {
+                            "title": "Tècnic Informàtic",
+                            "info": "Ornenes Apuestas",
+                            "text": "Lloc de sis mesos realitzant suport tècnic informàtic, resolució d'incidències d'equips i programari, manteniment de sistemes i ajuda a usuaris en el dia a dia.",
+                            "tags": ["Suport Tècnic", "Incidències", "Sistemes", "Hardware"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/work-2.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "09/01/2023",
+                        "end": "12/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Internship in Web Development",
+                            "info": "Local Company",
+                            "text": "Internship focused on developing web applications using JavaScript, Angular, and backend integration with Node.js.",
+                            "tags": ["JavaScript", "Angular", "Node.js"]
                         },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                        "es": {
+                            "title": "Prácticas en Desarrollo Web",
+                            "info": "Empresa Local",
+                            "text": "Prácticas enfocadas en el desarrollo de aplicaciones web utilizando JavaScript, Angular e integración con backend en Node.js.",
+                            "tags": ["JavaScript", "Angular", "Node.js"]
+                        },
+                        "vl": {
+                            "title": "Pràctiques en Desenvolupament Web",
+                            "info": "Empresa Local",
+                            "text": "Pràctiques enfocades en el desenvolupament d'aplicacions web utilitzant JavaScript, Angular i integració amb backend en Node.js.",
+                            "tags": ["JavaScript", "Angular", "Node.js"]
                         }
                     }
                 }

@@ -16,7 +16,6 @@
             "title_long": "Experiència **Laboral**"
         }
     },
-
     "articles": [
         {
             "id": "work",
@@ -26,32 +25,137 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/work-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": {
+                            "bg": "#6C5CE7",
+                            "fill": "#EEE"
+                        }
                     },
                     "dates": {
-                        "start": "02/2024",
+                        "start": "05/01/2025",
+                        "end": "05/01/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FullStack Developer",
+                            "info": "Trak - Lanzadera, Valencia",
+                            "text": "Worked for one year in a startup product environment, contributing to web and mobile development, code review, technical collaboration and fast iteration with the team. Built and maintained features using React, React Native, Django and Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
+                        },
+                        "es": {
+                            "title": "Desarrollador FullStack",
+                            "info": "Trak - Lanzadera, Valencia",
+                            "text": "Trabajo durante un año en un entorno startup de producto, participando en desarrollo web y móvil, revisión de código, colaboración técnica y adaptación a flujos ágiles del equipo. Desarrollo y mantenimiento de funcionalidades con React, React Native, Django y Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
+                        },
+                        "vl": {
+                            "title": "Desenvolupador FullStack",
+                            "info": "Trak - Lanzadera, València",
+                            "text": "Treball durant un any en un entorn startup de producte, participant en desenvolupament web i mòbil, revisió de codi, col·laboració tècnica i adaptació a fluxos àgils de l'equip. Desenvolupament i manteniment de funcionalitats amb React, React Native, Django i Python.",
+                            "tags": ["React", "React Native", "Django", "Python", "Startup"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/Falla_Plaza_Rodrigo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "03/25/2024",
                         "end": "Present"
                     },
                     "locales": {
                         "en": {
-                            "title": "Freelance Web Developer",
-                            "info": "Self-employed",
-                            "text": "Currently working as a freelance web developer, creating and maintaining websites for various clients using React, Node.js, and SQL databases.",
-                            "tags": ["React", "Node.js", "SQL", "Freelance"]
+                            "title": "FullStack Developer - Main Ongoing Project",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Main active project in production. Development and continuous maintenance of the Falla Plaza Rodrigo website and mobile app, covering frontend, backend, Firebase integration, event/news publishing, notifications and improvements for the association.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
                         },
                         "es": {
-                            "title": "Desarrollador Web Freelance",
-                            "info": "Autónomo",
-                            "text": "Actualmente trabajando como desarrollador web freelance, creando y manteniendo sitios web para diversos clientes utilizando React, Node.js y bases de datos SQL.",
-                            "tags": ["React", "Node.js", "SQL", "Freelance"]
+                            "title": "Desarrollador FullStack - Proyecto principal en activo",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Proyecto principal en producción. Desarrollo y mantenimiento continuo de la web y app móvil de Falla Plaza Rodrigo, trabajando frontend, backend, integración con Firebase, publicación de eventos/noticias, notificaciones y mejoras para la asociación.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
                         },
                         "vl": {
-                            "title": "Desenvolupador Web Freelance",
-                            "info": "Autònom",
-                            "text": "Actualment treballant com a desenvolupador web freelance, creant i mantenint llocs web per a diversos clients utilitzant React, Node.js i bases de dades SQL.",
-                            "tags": ["React", "Node.js", "SQL", "Freelance"]
+                            "title": "Desenvolupador FullStack - Projecte principal en actiu",
+                            "info": "Falla Plaza Rodrigo",
+                            "text": "Projecte principal en producció. Desenvolupament i manteniment continu de la web i app mòbil de Falla Plaza Rodrigo, treballant frontend, backend, integració amb Firebase, publicació d'esdeveniments/notícies, notificacions i millores per a l'associació.",
+                            "tags": ["React", "Node.js", "Firebase", "Ionic", "Capacitor"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/nm-mexico-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "04/01/2025",
+                        "end": "08/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FullStack Developer - Remote Project",
+                            "info": "NM México",
+                            "text": "Five-month remote freelance project for a client in Mexico. Developed the website with React on the frontend and .NET on the backend, delivering a complete FullStack web solution.",
+                            "tags": ["React", ".NET", "Remote", "FullStack"]
+                        },
+                        "es": {
+                            "title": "Desarrollador FullStack - Proyecto remoto",
+                            "info": "NM México",
+                            "text": "Proyecto freelance remoto de cinco meses para un cliente de México. Desarrollo de la web con React en el frontend y .NET en el backend, entregando una solución web FullStack completa.",
+                            "tags": ["React", ".NET", "Remoto", "FullStack"]
+                        },
+                        "vl": {
+                            "title": "Desenvolupador FullStack - Projecte remot",
+                            "info": "NM México",
+                            "text": "Projecte freelance remot de cinc mesos per a un client de Mèxic. Desenvolupament de la web amb React en el frontend i .NET en el backend, entregant una solució web FullStack completa.",
+                            "tags": ["React", ".NET", "Remot", "FullStack"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-screwdriver-wrench",
+                        "faColors": {
+                            "bg": "#0984E3",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "2024",
+                        "end": "2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IT Support Technician",
+                            "info": "Ornenes Apuestas",
+                            "text": "Six-month role providing technical IT support, troubleshooting equipment and software issues, maintaining systems and helping users with day-to-day incidents.",
+                            "tags": ["IT Support", "Troubleshooting", "Systems", "Hardware"]
+                        },
+                        "es": {
+                            "title": "Técnico Informático",
+                            "info": "Ornenes Apuestas",
+                            "text": "Puesto de seis meses realizando soporte técnico informático, resolución de incidencias de equipos y software, mantenimiento de sistemas y ayuda a usuarios en el día a día.",
+                            "tags": ["Soporte Técnico", "Incidencias", "Sistemas", "Hardware"]
+                        },
+                        "vl": {
+                            "title": "Tècnic Informàtic",
+                            "info": "Ornenes Apuestas",
+                            "text": "Lloc de sis mesos realitzant suport tècnic informàtic, resolució d'incidències d'equips i programari, manteniment de sistemes i ajuda a usuaris en el dia a dia.",
+                            "tags": ["Suport Tècnic", "Incidències", "Sistemes", "Hardware"]
                         }
                     }
                 },
@@ -59,11 +163,14 @@
                     "icon": {
                         "img": "images/pictures/work-2.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "09/2023",
-                        "end": "12/2023"
+                        "start": "09/01/2023",
+                        "end": "12/01/2023"
                     },
                     "locales": {
                         "en": {

@@ -19,7 +19,6 @@
             "title_long": "Actualitzacions **Recents**"
         }
     },
-
     "articles": [
         {
             "id": "fun_facts",
@@ -27,96 +26,203 @@
             "config": {},
             "items": [
                 {
-                    "icon": { "img": null, "fa": "fa-solid fa-tablet-screen-button", "faColors": null },
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tablet-screen-button",
+                        "faColors": null
+                    },
                     "locales": {
-                        "en": { "title": "01", "info": "App developed" },
-                        "es": { "title": "01", "info": "Aplicación desarrollada" },
-                        "vl": { "title": "01", "info": "Aplicació desenvolupada" }
+                        "en": {
+                            "title": "02",
+                            "info": "Apps and mobile projects"
+                        },
+                        "es": {
+                            "title": "02",
+                            "info": "Apps y proyectos móviles"
+                        },
+                        "vl": {
+                            "title": "02",
+                            "info": "Apps i projectes mòbils"
+                        }
                     }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-solid fa-globe", "faColors": null },
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
                     "locales": {
-                        "en": { "title": "07", "info": "Countries visited" },
-                        "es": { "title": "07", "info": "Países visitados" },
-                        "vl": { "title": "07", "info": "Països visitats" }
+                        "en": {
+                            "title": "03",
+                            "info": "Production websites"
+                        },
+                        "es": {
+                            "title": "03",
+                            "info": "Webs en producción"
+                        },
+                        "vl": {
+                            "title": "03",
+                            "info": "Webs en producció"
+                        }
                     }
                 },
                 {
-                    "icon": { "img": null, "fa": "fa-solid fa-coffee", "faColors": null },
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code-branch",
+                        "faColors": null
+                    },
                     "locales": {
-                        "en": { "title": "20,000", "info": "Coffees consumed" },
-                        "es": { "title": "20,000", "info": "Cafés consumidos" },
-                        "vl": { "title": "20,000", "info": "Cafès consumits" }
+                        "en": {
+                            "title": "1+",
+                            "info": "Year in startup product work"
+                        },
+                        "es": {
+                            "title": "1+",
+                            "info": "Año en entorno startup"
+                        },
+                        "vl": {
+                            "title": "1+",
+                            "info": "Any en entorn startup"
+                        }
                     }
                 }
             ]
         },
-
         {
             "id": "updates",
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Recent **Milestones**" },
-                "es": { "title": "Hitos **Recientes**" },
-                "vl": { "title": "Fites **Recents**" }
+                "en": {
+                    "title": "Recent **Milestones**"
+                },
+                "es": {
+                    "title": "Hitos **Recientes**"
+                },
+                "vl": {
+                    "title": "Fites **Recents**"
+                }
             },
-
             "items": [
                 {
-                    "dates": { "start": "03/25/2024", "end": null },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "Started developing **Falla Plaza Rodrigo's website**",
-                            "text": "Began working on the official website for Falla Plaza Rodrigo, focusing on event management, news updates, and interactive features for the community."
-                        },
-                        "es": {
-                            "title": "Inicio del desarrollo de la **web de la Falla Plaza Rodrigo**",
-                            "text": "Comencé a desarrollar la web oficial de la Falla Plaza Rodrigo, centrada en la gestión de eventos, noticias y funcionalidades interactivas para la comunidad."
-                        },
-                        "vl": {
-                            "title": "Inici del desenvolupament de la **web de la Falla Plaza Rodrigo**",
-                            "text": "Vaig començar a desenvolupar la web oficial de la Falla Plaza Rodrigo, centrada en la gestió d'esdeveniments, notícies i funcionalitats interactives per a la comunitat."
-                        }
-                    }
-                },
-                {
-                    "dates": { "start": "11/29/2024", "end": null },
+                    "dates": {
+                        "start": "03/25/2024",
+                        "end": null
+                    },
                     "links": [
-                        { "string": "see_website", "href": "https://fallaplazarodrigo.es" }
+                        {
+                            "string": "see_website",
+                            "href": "https://fallaplazarodrigo.es"
+                        }
                     ],
                     "locales": {
                         "en": {
-                            "title": "Launched the **Falla Plaza Rodrigo website and apps**",
-                            "text": "Successfully deployed and presented the official website and mobile applications, offering a new digital experience for members and visitors."
+                            "title": "Started the **Falla Plaza Rodrigo digital ecosystem**",
+                            "text": "Began developing the official website and mobile experience for Falla Plaza Rodrigo, focused on events, news, member communication and a cleaner digital presence for the association."
                         },
                         "es": {
-                            "title": "Publicación y presentación de la **web y apps de la Falla Plaza Rodrigo**",
-                            "text": "Lancé y presenté oficialmente la web y aplicaciones móviles, ofreciendo una nueva experiencia digital para los miembros y visitantes."
+                            "title": "Inicio del **ecosistema digital de Falla Plaza Rodrigo**",
+                            "text": "Comencé a desarrollar la web oficial y la experiencia móvil de Falla Plaza Rodrigo, centrada en eventos, noticias, comunicación con miembros y una presencia digital más cuidada para la asociación."
                         },
                         "vl": {
-                            "title": "Publicació i presentació de la **web i apps de la Falla Plaza Rodrigo**",
-                            "text": "Vaig llançar i presentar oficialment la web i aplicacions mòbils, oferint una nova experiència digital per als membres i visitants."
+                            "title": "Inici de l'**ecosistema digital de Falla Plaza Rodrigo**",
+                            "text": "Vaig començar a desenvolupar la web oficial i l'experiència mòbil de Falla Plaza Rodrigo, centrada en esdeveniments, notícies, comunicació amb membres i una presència digital més cuidada per a l'associació."
                         }
                     }
                 },
                 {
-                    "dates": { "start": "02/01/2025", "end": null },
+                    "dates": {
+                        "start": "11/29/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "see_website",
+                            "href": "https://fallaplazarodrigo.es"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched the **Falla Plaza Rodrigo website and app**",
+                            "text": "Published and presented the website and mobile app, turning it into my main production project and an active product that I continue maintaining and improving."
+                        },
+                        "es": {
+                            "title": "Lanzamiento de la **web y app de Falla Plaza Rodrigo**",
+                            "text": "Publiqué y presenté la web y la app móvil, convirtiéndola en mi proyecto principal en producción y en un producto activo que sigo manteniendo y mejorando."
+                        },
+                        "vl": {
+                            "title": "Llançament de la **web i app de Falla Plaza Rodrigo**",
+                            "text": "Vaig publicar i presentar la web i l'app mòbil, convertint-la en el meu projecte principal en producció i en un producte actiu que continue mantenint i millorant."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "05/01/2025",
+                        "end": null
+                    },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Started working on **CookGPT**",
-                            "text": "Began developing CookGPT, an AI-powered recipe web app designed to provide personalized meal suggestions based on user preferences."
+                            "title": "Joined **Trak** at Lanzadera Valencia",
+                            "text": "Started working in a startup product environment, contributing to web and mobile development with React, React Native, Django and Python, plus code reviews and technical collaboration."
                         },
                         "es": {
-                            "title": "Inicio del desarrollo de **CookGPT**",
-                            "text": "Comencé a desarrollar CookGPT, una aplicación web de recetas con IA diseñada para ofrecer sugerencias de comidas personalizadas según las preferencias del usuario."
+                            "title": "Entrada en **Trak** en Lanzadera Valencia",
+                            "text": "Empecé a trabajar en un entorno startup de producto, participando en desarrollo web y móvil con React, React Native, Django y Python, además de revisión de código y colaboración técnica."
                         },
                         "vl": {
-                            "title": "Inici del desenvolupament de **CookGPT**",
-                            "text": "Vaig començar a desenvolupar CookGPT, una aplicació web de receptes amb IA dissenyada per oferir suggeriments de menjars personalitzats segons les preferències de l'usuari."
+                            "title": "Entrada en **Trak** en Lanzadera València",
+                            "text": "Vaig començar a treballar en un entorn startup de producte, participant en desenvolupament web i mòbil amb React, React Native, Django i Python, a més de revisió de codi i col·laboració tècnica."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "05/01/2026",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed one year of **startup FullStack experience**",
+                            "text": "Closed a full year at Trak with stronger product, teamwork, review and delivery experience in a real startup workflow."
+                        },
+                        "es": {
+                            "title": "Un año de experiencia **FullStack en startup**",
+                            "text": "Cerré un año completo en Trak reforzando experiencia de producto, trabajo en equipo, revisión de código y entrega dentro de un flujo real de startup."
+                        },
+                        "vl": {
+                            "title": "Un any d'experiència **FullStack en startup**",
+                            "text": "Vaig tancar un any complet en Trak reforçant experiència de producte, treball en equip, revisió de codi i entrega dins d'un flux real de startup."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "08/01/2025",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "see_website",
+                            "href": "https://nmmexico.com/"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Finished **NM México** remote project",
+                            "text": "Completed a five-month remote freelance website for a Mexican client, developed from April to August 2025 with React on the frontend and .NET on the backend."
+                        },
+                        "es": {
+                            "title": "Finalización del proyecto remoto **NM México**",
+                            "text": "Completé una web freelance en remoto para un cliente de México, desarrollada de abril a agosto de 2025 con React en el frontend y .NET en el backend."
+                        },
+                        "vl": {
+                            "title": "Finalització del projecte remot **NM México**",
+                            "text": "Vaig completar una web freelance en remot per a un client de Mèxic, desenvolupada d'abril a agost de 2025 amb React en el frontend i .NET en el backend."
                         }
                     }
                 }

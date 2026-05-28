@@ -22,6 +22,11 @@ function InfoCard({title, text, img, fallbackIcon, fallbackIconColors, dateInter
         if(!href)
             return
 
+        if(href.startsWith('/')) {
+            window.open(href, '_blank')
+            return
+        }
+
         showConfirmationDialog(
             hrefLabel,
             getString('leaving_site').replace('$url', utils.limitTextSize(href, 50)),
